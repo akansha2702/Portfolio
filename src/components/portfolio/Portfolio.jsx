@@ -1,65 +1,65 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/port.PNG'
+import IMG2 from '../../assets/gpt-mapper.PNG'
+import IMG3 from '../../assets/myFinanceFriend.PNG'
+import IMG4 from '../../assets/travel-guide.jpg'
+import IMG5 from '../../assets/spotify-clone.PNG'
+// import IMG6 from '../../assets/port.jpg'
 
 // we r going to generate portfolio dynamically using array map method
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Portfolio',
+    github: 'https://github.com/akansha2002/Portfolio',
+    demo: ''
 
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'GPT Mapper',
+    github: 'https://github.com/akansha2002/Roadmap-frontend',
+    demo: ''
 
   },
 
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'My Finance Friend',
+    github: 'https://github.com/akansha2002/Ms_azure2022',
+    demo: 'https://azuretesting2002.netlify.app//'
 
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Travel Guide',
+    github: 'https://github.com/akansha2002/SIH',
+    demo: 'https://travelwithakansha.herokuapp.com///'
 
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Spotify Clone',
+    github: 'https://github.com/akansha2002/Spotify-Clone',
+    demo: ''
 
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Crypto Currency Dashboard & Financial Visulaization',
-    github: 'https://github.com',
-    demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Crypto Currency Dashboard & Financial Visulaization',
+  //   github: 'https://github.com',
+  //   demo: 'https:dribble.com/shots/16673735-Crypto-currency-dashboards-and-financial-data-visualization'
 
-  }
+  // }
 ]
 
 

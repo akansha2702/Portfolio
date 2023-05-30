@@ -23,21 +23,21 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Tailwind</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Bootstrap</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -58,20 +58,26 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
               <BsPatchCheckFill/>
-              <h4>Node JS</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Node JS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill/>
-              <h4>MongoDB</h4>
-              <small className='text-light'>Intermediate</small>
+              <div>
+                <h4>MongoDB</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill/>
-              <h4>Express JS</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>ExpressJS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
               <BsPatchCheckFill/>
               <h4>MySQL</h4>
               <small className='text-light'>Experienced</small>
@@ -80,7 +86,7 @@ const Experience = () => {
               <BsPatchCheckFill/>
               <h4>React</h4>
               <small className='text-light'>Experienced</small>
-            </article>
+            </article> */}
           </div>
         </div>
           

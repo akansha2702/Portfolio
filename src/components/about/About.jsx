@@ -12,11 +12,11 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className='container about__container'>
-        <div className='about__me'>
+        {/* <div className='about__me'>
           <img src={ME} className='about__me-image' alt="About Image"/>
-        </div>
+        </div> */}
         <div className='about__content'>
-        <div className='about__cards'>
+        {/* <div className='about__cards'>
           <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
@@ -32,9 +32,9 @@ const About = () => {
             <h5>Projects</h5>
             <small>80+ completed</small>
           </article>
-        </div>
+        </div> */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit excepturi soluta ullam incidunt culpa atque ab quidem, non dicta porro recusandae debitis velit, quae tempora consectetur aliquam temporibus id. Vitae?
+        I'm Akansha Aggarwal, a pre-final year student pursuing BTech in Information Technology from Guru Gobind Singh Indraprastha University. I am an active learner who believes in the value of technology and teamwork. Skilled in C++, Data Structures , Algorithms , I am an aspiring Web Developer. Looking forward to great opportunities to learn new technologies , skills and willing to work under pressure on projects and deadline with the given time limit or target.
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>

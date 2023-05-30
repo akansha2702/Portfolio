@@ -5,17 +5,21 @@ import './services.css'
 const Services = () => {
   return (
     <section id='service'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What I have studied</h5>
+      <h2>Education</h2>
 
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Bachelor's of Technology - IT</h3>
           </div>
 
           <ul className='service__list'>
             <li>
+              {/* <BiCheck className='service__list-icon'/> */}
+              <p>Guru Gobind Singh Indraprastha University ( 2020-2024 )</p>
+            </li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -30,11 +34,7 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* END OF UI/UX */}
@@ -42,11 +42,15 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Senior Secondary School</h3>
           </div>
 
           <ul className='service__list'>
             <li>
+              {/* <BiCheck className='service__list-icon'/> */}
+              <p>Vikas Bharati Public School (2019-2020)</p>
+            </li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -65,22 +69,22 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
 
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Secondary School</h3>
           </div>
 
           <ul className='service__list'>
             <li>
+              {/* <BiCheck className='service__list-icon'/> */}
+              <p>Vikas Bharati Public School (2017-2018)</p>
+            </li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
@@ -95,11 +99,7 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* END OF CONTENT CREATION */}
