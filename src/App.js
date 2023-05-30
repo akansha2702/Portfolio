@@ -5,6 +5,8 @@ import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
+import Services from './components/services/Services';
+import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
      <Nav/>
      <About/>
      <Experience/>
+     <Services/>
+     <Portfolio/>
      <Contact/>
      <Footer/>
     </div>
