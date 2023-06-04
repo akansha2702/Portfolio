@@ -14,7 +14,7 @@ const data = [
     image: IMG1,
     title: 'Portfolio',
     github: 'https://github.com/akansha2002/Portfolio',
-    demo: ''
+    demo: 'https://portfolio-livid-eight-56.vercel.app/'
 
   },
 
@@ -22,8 +22,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'GPT Mapper',
-    github: 'https://github.com/akansha2002/Roadmap-frontend',
-    demo: ''
+    github: 'https://github.com/akansha2002/GPT-Mapper',
+    demo: 'https://gptmapper.netlify.app/'
 
   },
 
