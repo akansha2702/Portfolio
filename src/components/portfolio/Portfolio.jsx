@@ -41,7 +41,7 @@ const data = [
     image: IMG4,
     title: 'Travel Guide',
     github: 'https://github.com/akansha2002/SIH',
-    demo: 'https://travelwithakansha.herokuapp.com///'
+    demo: 'https://travel-guide-rho.vercel.app/'
 
   },
   {
@@ -49,7 +49,7 @@ const data = [
     image: IMG5,
     title: 'Spotify Clone',
     github: 'https://github.com/akansha2002/Spotify-Clone',
-    demo: ''
+    demo: 'https://spotify-clone-seven-ivory.vercel.app/'
 
   },
   // {
