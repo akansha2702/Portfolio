@@ -5,12 +5,21 @@ import IMG2 from '../../assets/gpt-mapper.PNG'
 import IMG3 from '../../assets/myFinanceFriend.PNG'
 import IMG4 from '../../assets/travel-guide.jpg'
 import IMG5 from '../../assets/spotify-clone.PNG'
-// import IMG6 from '../../assets/port.jpg'
+import IMG6 from '../../assets/sociopedia-img.PNG'
 
 // we r going to generate portfolio dynamically using array map method
 const data = [
   {
     id: 1,
+    image: IMG6,
+    title: 'SocioPedia',
+    github: 'https://github.com/akansha2002/SocioPedia',
+    demo: 'https://sociopediaas.vercel.app/'
+
+  },
+
+  {
+    id: 2,
     image: IMG1,
     title: 'Portfolio',
     github: 'https://github.com/akansha2002/Portfolio',
@@ -19,7 +28,7 @@ const data = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'GPT Mapper',
     github: 'https://github.com/akansha2002/GPT-Mapper',
@@ -28,7 +37,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'My Finance Friend',
     github: 'https://github.com/akansha2002/Ms_azure2022',
@@ -37,7 +46,7 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Travel Guide',
     github: 'https://github.com/akansha2002/SIH',
@@ -45,7 +54,7 @@ const data = [
 
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: 'Spotify Clone',
     github: 'https://github.com/akansha2002/Spotify-Clone',
