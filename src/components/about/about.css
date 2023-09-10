@@ -6,34 +6,50 @@
 }
 
 .about__me{
-    width: 100%;
+    width: 350px;
+    height: 250px;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
+    /* height: 20px; */
+    /* border-radius: 2rem; */
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background: linear-gradient(
         45deg,
         transparent,
         var(--color-primary),
         transparent
-    );
-    display: grid;
+    ); *
+    
+    
+    /* display: grid; */
     place-items: center;
 
 }
 
-.about__me-image{
+/* .about__me-image{
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-}
-.about__me-image:hover{
+} */
+/* .about__me-image:hover{
     transform: rotate(0);
-}
+} */
 
 .about__cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
 }
 
 .about__card{
@@ -61,20 +77,27 @@
 }
 
 .about__content p{
-    margin: 2rem 0 2.6rem;
+    margin-left: 10rem ;
+    margin-top: 2rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
     color: var(--color-light);
 }
 
 /************ MEDIA QUERIES ( MEDIUM DEVICES ) ***********/
 @media screen and (max-width: 1024px){
+    .about__cards{
+        width: 100%;
+        
+    }
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .about__me{
+    /* .about__me{
         width: 50%;
         margin: 2rem auto 4rem;
-    }
+    } */
     .about__content p{
         margin: 1rem 0 1.5rem;
     }
@@ -86,13 +109,14 @@
 
 /************ MEDIA QUERIES ( SMALL DEVICES ) ***********/
 @media screen and (max-width: 600px){
+    
     .about__me{
         width: 65%;
         margin: 0rem auto 3rem;
     }
     .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        
+        width: 100%;
     }
     .about__content{
         text-align: center;
