@@ -49,6 +49,9 @@
       margin-top: 6px;
       color: var(--color-primary);
 }
+ul li {
+  margin-bottom: 15px;
+}
 
 
 /************ MEDIA QUERIES ( MEDIUM DEVICES ) ***********/

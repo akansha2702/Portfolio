@@ -154,6 +154,44 @@ const Experience = () => {
             <div class="timeline">
               <div class="timeline__item">
                 <div class="circle__dot"></div>
+                <h3 class="timeline__title">Software Developer</h3>
+                <p class="timeline__text">Hopstack</p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  July 2024 - Present
+                </span>
+                <ul>
+                  <li >
+                    • Developed Bundling Summary screen with advanced filters, improving data access by 30%. Built Node.js APIs for faster bundle data retrieval, reducing time by 20%. Enhanced workflows with real-time tracking, boosting efficiency by 25%.
+                     </li>
+                 
+                  <li>
+                  • Implemented Rate Shopping to compare carriers and select Incoterms, saving $25K+ annually. Built React.js frontend with real-time updates and optimized APIs for seamless data and audit trail, boosting accuracy by 30%. </li>
+        
+                  </ul> 
+              </div>
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Software Developer Intern</h3>
+                <p class="timeline__text">Hopstck</p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  Feb 2024 - May 2024
+                </span>
+                <ul>
+                  <li>
+                    • Developed Tax Calculation Functionality: Implemented a robust system to calculate taxes on items being shipped
+between locations , reducing API errors by 30% and increasing user input accuracy by 25%.
+ </li>
+                  <li>
+                    • Implemented Payment Due Notifications, ensuring prompt attention to outstanding dues. Achieved a 40% reduction in overdue payments and improved compliance for 25,000+ accounts. </li>
+                  {/* <li>
+                    • Engaged proactively in team meetings, assisted in maintaining high code quality through participation in code reviews, providing valuable feedback, and optimizing performance.
+                  </li> */}
+                  </ul> 
+              </div>
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
                 <h3 class="timeline__title">Software Developer Intern</h3>
                 <p class="timeline__text">Data Knobs</p>
                 <span class="timeline__date"
@@ -172,7 +210,7 @@ const Experience = () => {
                   </li> */}
                   </ul> 
               </div>
-              <div class="timeline__item">
+              {/* <div class="timeline__item">
                 <div class="circle__dot"></div>
                 <h3 class="timeline__title">Tech Associate</h3>
                 <p class="timeline__text">Geekster</p>
@@ -211,7 +249,7 @@ const Experience = () => {
                   
                   </ul> 
                 
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
